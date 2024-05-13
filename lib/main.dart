@@ -3,7 +3,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:sutdent_provider/provider/student_provider.dart';
 import 'package:sutdent_provider/screens/home_page.dart';
-import 'package:sutdent_provider/utils/hive_box.dart';
+import 'package:sutdent_provider/controllers/hive_box.dart';
 import 'package:sutdent_provider/models/student_model.dart';
 import 'package:sutdent_provider/provider/image_provider.dart';
 import 'package:sutdent_provider/provider/students_provider.dart';

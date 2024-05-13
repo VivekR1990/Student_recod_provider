@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:sutdent_provider/models/student_model.dart';
-import 'package:sutdent_provider/utils/constants.dart';
+import 'package:sutdent_provider/controllers/constants.dart';
 
 class ProfieCard extends StatelessWidget {
   const ProfieCard({super.key, required this.student});

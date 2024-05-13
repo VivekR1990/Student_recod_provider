@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sutdent_provider/models/student_model.dart';
-import 'package:sutdent_provider/utils/constants.dart';
+import 'package:sutdent_provider/controllers/constants.dart';
 import 'package:sutdent_provider/widgets/student_detail/common_heading.dart';
 
 class ContactCard extends StatelessWidget {

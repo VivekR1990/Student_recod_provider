@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sutdent_provider/utils/text_controlls/text_controllers.dart';
-import 'package:sutdent_provider/utils/constants.dart';
+import 'package:sutdent_provider/controllers/text_controllers/text_controllers.dart';
+import 'package:sutdent_provider/controllers/constants.dart';
 import 'package:sutdent_provider/models/student_model.dart';
 import 'package:sutdent_provider/provider/image_provider.dart';
-import 'package:sutdent_provider/utils/text_controlls/text_validation.dart';
+import 'package:sutdent_provider/controllers/text_controllers/text_validation.dart';
 import 'package:sutdent_provider/widgets/add_student/profile_pic.dart';
 import 'package:sutdent_provider/widgets/add_student/submit_button.dart';
 import 'package:sutdent_provider/widgets/my_textfield.dart';

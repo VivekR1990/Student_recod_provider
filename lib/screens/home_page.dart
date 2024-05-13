@@ -4,10 +4,10 @@ import 'package:provider/provider.dart';
 import 'package:sutdent_provider/models/student_model.dart';
 import 'package:sutdent_provider/provider/students_provider.dart';
 import 'package:sutdent_provider/screens/add_student.dart';
-import 'package:sutdent_provider/utils/constants.dart';
+import 'package:sutdent_provider/controllers/constants.dart';
 import 'package:sutdent_provider/widgets/home/each_student.dart';
 
-import '../utils/debouncer.dart';
+import '../controllers/debouncer.dart';
 
 // ignore: use_key_in_widget_constructors
 class HomePage extends StatelessWidget {

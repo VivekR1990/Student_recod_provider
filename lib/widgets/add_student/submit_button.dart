@@ -4,7 +4,7 @@ import 'package:sutdent_provider/models/student_model.dart';
 import 'package:sutdent_provider/provider/image_provider.dart';
 import 'package:sutdent_provider/provider/student_provider.dart';
 import 'package:sutdent_provider/provider/students_provider.dart';
-import 'package:sutdent_provider/utils/text_controlls/text_controllers.dart';
+import 'package:sutdent_provider/controllers/text_controllers/text_controllers.dart';
 
 class SubmitButton extends StatelessWidget {
   const SubmitButton(

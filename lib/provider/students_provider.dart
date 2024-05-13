@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-import 'package:sutdent_provider/utils/hive_box.dart';
+import 'package:sutdent_provider/controllers/hive_box.dart';
 import 'package:sutdent_provider/models/student_model.dart';
 
 class StudentProvider extends ChangeNotifier {
