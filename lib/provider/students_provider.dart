@@ -23,20 +23,19 @@ class StudentProvider extends ChangeNotifier {
       await box.add(student);
       _students = box.values.toList();
       notifyListeners();
+    // ignore: empty_catches
     } catch (e) {
-      print(e);
     }
   }
 
   // Method to delete a student by key
   Future<void> deleteStudent(int key) async {
-    print(key);
     try {
       await box.delete(key);
       _students = box.values.toList();
       notifyListeners();
+    // ignore: empty_catches
     } catch (e) {
-      print(e);
     }
   }
 
@@ -45,11 +44,7 @@ class StudentProvider extends ChangeNotifier {
     await box.put(key, student);
     _students = box.values.toList();
     notifyListeners();
-    //   int index = _students.indexWhere((s) => s.key == key);
-    //   if (index != -1) {
-    //     _students[index] = student;
-    //     notifyListeners();
-    //   } }
+    
   }
 
   void searchStudents(String input) {

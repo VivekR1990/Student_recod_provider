@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
+import 'package:sutdent_provider/controllers/debouncer.dart';
 import 'package:sutdent_provider/models/student_model.dart';
 import 'package:sutdent_provider/provider/students_provider.dart';
 import 'package:sutdent_provider/screens/add_student.dart';
 import 'package:sutdent_provider/controllers/constants.dart';
-import 'package:sutdent_provider/widgets/home/each_student.dart';
+import 'package:sutdent_provider/widgets/home/card_student.dart';
 
-import '../controllers/debouncer.dart';
 
 // ignore: use_key_in_widget_constructors
 class HomePage extends StatelessWidget {
@@ -103,7 +103,7 @@ class HomePage extends StatelessWidget {
                           child: ListView.builder(
                             itemCount: students.length,
                             itemBuilder: (context, index) {
-                              return EachStudent(student: students[index]);
+                              return StudentCard(student: students[index]);
                             },
                           ),
                         );

@@ -9,8 +9,8 @@ import 'package:sutdent_provider/screens/add_student.dart';
 import 'package:sutdent_provider/screens/student_detail.dart';
 import 'package:sutdent_provider/widgets/snackbar.dart';
 
-class EachStudent extends StatelessWidget {
-  const EachStudent({super.key, required this.student});
+class StudentCard extends StatelessWidget {
+  const StudentCard({super.key, required this.student});
   final StudentModel student;
 
   @override
